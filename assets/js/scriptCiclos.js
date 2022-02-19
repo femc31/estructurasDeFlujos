@@ -30,3 +30,10 @@ while (estado != 'stop'){
  *      instrucciones a ejecutar y repetirse mientras la condicion se cumpla
  * }
  */
+
+//do-while
+do {
+    var nombre = prompt('ingresa tu nombre');
+    console.log(nombre);
+    var estadoDo = prompt('ingrese "stop" si quiere salir');
+} while (estadoDo != 'stop');
