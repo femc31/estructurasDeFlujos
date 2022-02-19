@@ -31,10 +31,36 @@ if(4 == 5) {
 }
 console.log('esto se ejecuta despues del if');
 
+/**
+ * if (condicional o prueba logica) {
+ *      La(s) intruccion(es) que se ejecutar(an) cuando la condicion se cumpla
+ * }
+ */
+
 //instrucciones if-else
 //definir el color favorito de una persona entre dos opciones: verde y rojo
 var colorFavorito = prompt('Ingresar tu color favorito entre verde y rojo');
 if (colorFavorito == 'verde') {
-    console.log(`tu color favorito es: ` ${colorFavorito});
+    console.log(`tu color favorito es verde`);
+} else {
+    console.log(`tu color favorito es rojo`);
 }
-console.log(`tu color favorito es rojo`);
+
+/**
+ * if (condicional o prueba logica) {
+ *      La(s) intruccion(es) que se ejecutar(an) cuando la condicion se cumpla
+ * } else {
+ *      La(s) intruccion(es) que se ejecutar(an) cuando la condicion NO se cumpla
+ * }
+ */
+
+//if-else-if
+//definir el color favorito de una persona entre 3 opciones: rojo, verde, amarillo
+var colorFavorito = prompt('Ingresar tu color favorito entre verde, rojo y amarillo');
+if (colorFavorito == 'verde') {
+    console.log(`tu color favorito es verde`);
+} else if (colorFavorito == 'rojo'){
+    console.log(`tu color favorito es rojo`);
+} else {
+    console.log(`tu color favorito es amarillo`);
+}
