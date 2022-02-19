@@ -16,3 +16,17 @@ for (var i = inicio; i < hasta; i = i + salto){
     console.log(nombre);
 }
 
+//while
+//solicita por pantalla N nombres e imprimelos en consola, el usuario dira stop para cuando quiera dejar de ingresar nombres
+var estado = prompt('Ingresa "stop" si quieres salir');
+while (estado != 'stop'){
+    console.log('Infinito!!!!!!');
+    //estado = 'stop';
+    estado = prompt('Ingresa "stop" si quieres salir');
+}
+
+/**
+ * while(condicional o prueba logica) {
+ *      instrucciones a ejecutar y repetirse mientras la condicion se cumpla
+ * }
+ */
