@@ -31,3 +31,10 @@ if(4 == 5) {
 }
 console.log('esto se ejecuta despues del if');
 
+//instrucciones if-else
+//definir el color favorito de una persona entre dos opciones: verde y rojo
+var colorFavorito = prompt('Ingresar tu color favorito entre verde y rojo');
+if (colorFavorito == 'verde') {
+    console.log(`tu color favorito es: ` ${colorFavorito});
+}
+console.log(`tu color favorito es rojo`);
